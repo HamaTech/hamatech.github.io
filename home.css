@@ -1,0 +1,895 @@
+@charset "UTF-8";
+@-webkit-keyframes bounceInRight {
+  /* line 64, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/mixins.css.scss */
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(2000px);
+    -khtml-transform: translateX(2000px);
+    -moz-transform: translateX(2000px);
+    -ms-transform: translateX(2000px);
+    -o-transform: translateX(2000px);
+    transform: translateX(2000px);
+  }
+
+  /* line 65, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/mixins.css.scss */
+  60% {
+    -webkit-transform: translateX(-30px);
+    -khtml-transform: translateX(-30px);
+    -moz-transform: translateX(-30px);
+    -ms-transform: translateX(-30px);
+    -o-transform: translateX(-30px);
+    transform: translateX(-30px);
+  }
+
+  /* line 66, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/mixins.css.scss */
+  80% {
+    -webkit-transform: translateX(10px);
+    -khtml-transform: translateX(10px);
+    -moz-transform: translateX(10px);
+    -ms-transform: translateX(10px);
+    -o-transform: translateX(10px);
+    transform: translateX(10px);
+  }
+
+  /* line 67, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/mixins.css.scss */
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    -khtml-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+@-khtml-keyframes bounceInRight {
+  /* line 64, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/mixins.css.scss */
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(2000px);
+    -khtml-transform: translateX(2000px);
+    -moz-transform: translateX(2000px);
+    -ms-transform: translateX(2000px);
+    -o-transform: translateX(2000px);
+    transform: translateX(2000px);
+  }
+
+  /* line 65, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/mixins.css.scss */
+  60% {
+    -webkit-transform: translateX(-30px);
+    -khtml-transform: translateX(-30px);
+    -moz-transform: translateX(-30px);
+    -ms-transform: translateX(-30px);
+    -o-transform: translateX(-30px);
+    transform: translateX(-30px);
+  }
+
+  /* line 66, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/mixins.css.scss */
+  80% {
+    -webkit-transform: translateX(10px);
+    -khtml-transform: translateX(10px);
+    -moz-transform: translateX(10px);
+    -ms-transform: translateX(10px);
+    -o-transform: translateX(10px);
+    transform: translateX(10px);
+  }
+
+  /* line 67, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/mixins.css.scss */
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    -khtml-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+@-moz-keyframes bounceInRight {
+  /* line 64, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/mixins.css.scss */
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(2000px);
+    -khtml-transform: translateX(2000px);
+    -moz-transform: translateX(2000px);
+    -ms-transform: translateX(2000px);
+    -o-transform: translateX(2000px);
+    transform: translateX(2000px);
+  }
+
+  /* line 65, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/mixins.css.scss */
+  60% {
+    -webkit-transform: translateX(-30px);
+    -khtml-transform: translateX(-30px);
+    -moz-transform: translateX(-30px);
+    -ms-transform: translateX(-30px);
+    -o-transform: translateX(-30px);
+    transform: translateX(-30px);
+  }
+
+  /* line 66, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/mixins.css.scss */
+  80% {
+    -webkit-transform: translateX(10px);
+    -khtml-transform: translateX(10px);
+    -moz-transform: translateX(10px);
+    -ms-transform: translateX(10px);
+    -o-transform: translateX(10px);
+    transform: translateX(10px);
+  }
+
+  /* line 67, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/mixins.css.scss */
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    -khtml-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+@-ms-keyframes bounceInRight {
+  /* line 64, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/mixins.css.scss */
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(2000px);
+    -khtml-transform: translateX(2000px);
+    -moz-transform: translateX(2000px);
+    -ms-transform: translateX(2000px);
+    -o-transform: translateX(2000px);
+    transform: translateX(2000px);
+  }
+
+  /* line 65, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/mixins.css.scss */
+  60% {
+    -webkit-transform: translateX(-30px);
+    -khtml-transform: translateX(-30px);
+    -moz-transform: translateX(-30px);
+    -ms-transform: translateX(-30px);
+    -o-transform: translateX(-30px);
+    transform: translateX(-30px);
+  }
+
+  /* line 66, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/mixins.css.scss */
+  80% {
+    -webkit-transform: translateX(10px);
+    -khtml-transform: translateX(10px);
+    -moz-transform: translateX(10px);
+    -ms-transform: translateX(10px);
+    -o-transform: translateX(10px);
+    transform: translateX(10px);
+  }
+
+  /* line 67, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/mixins.css.scss */
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    -khtml-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+@-o-keyframes bounceInRight {
+  /* line 64, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/mixins.css.scss */
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(2000px);
+    -khtml-transform: translateX(2000px);
+    -moz-transform: translateX(2000px);
+    -ms-transform: translateX(2000px);
+    -o-transform: translateX(2000px);
+    transform: translateX(2000px);
+  }
+
+  /* line 65, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/mixins.css.scss */
+  60% {
+    -webkit-transform: translateX(-30px);
+    -khtml-transform: translateX(-30px);
+    -moz-transform: translateX(-30px);
+    -ms-transform: translateX(-30px);
+    -o-transform: translateX(-30px);
+    transform: translateX(-30px);
+  }
+
+  /* line 66, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/mixins.css.scss */
+  80% {
+    -webkit-transform: translateX(10px);
+    -khtml-transform: translateX(10px);
+    -moz-transform: translateX(10px);
+    -ms-transform: translateX(10px);
+    -o-transform: translateX(10px);
+    transform: translateX(10px);
+  }
+
+  /* line 67, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/mixins.css.scss */
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    -khtml-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+@keyframes bounceInRight {
+  /* line 64, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/mixins.css.scss */
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(2000px);
+    -khtml-transform: translateX(2000px);
+    -moz-transform: translateX(2000px);
+    -ms-transform: translateX(2000px);
+    -o-transform: translateX(2000px);
+    transform: translateX(2000px);
+  }
+
+  /* line 65, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/mixins.css.scss */
+  60% {
+    -webkit-transform: translateX(-30px);
+    -khtml-transform: translateX(-30px);
+    -moz-transform: translateX(-30px);
+    -ms-transform: translateX(-30px);
+    -o-transform: translateX(-30px);
+    transform: translateX(-30px);
+  }
+
+  /* line 66, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/mixins.css.scss */
+  80% {
+    -webkit-transform: translateX(10px);
+    -khtml-transform: translateX(10px);
+    -moz-transform: translateX(10px);
+    -ms-transform: translateX(10px);
+    -o-transform: translateX(10px);
+    transform: translateX(10px);
+  }
+
+  /* line 67, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/mixins.css.scss */
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    -khtml-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  /* line 71, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/mixins.css.scss */
+  0% {
+    opacity: 0;
+  }
+
+  /* line 72, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/mixins.css.scss */
+  100% {
+    opacity: 1;
+  }
+}
+
+@-khtml-keyframes fadeIn {
+  /* line 71, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/mixins.css.scss */
+  0% {
+    opacity: 0;
+  }
+
+  /* line 72, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/mixins.css.scss */
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  /* line 71, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/mixins.css.scss */
+  0% {
+    opacity: 0;
+  }
+
+  /* line 72, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/mixins.css.scss */
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  /* line 71, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/mixins.css.scss */
+  0% {
+    opacity: 0;
+  }
+
+  /* line 72, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/mixins.css.scss */
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  /* line 71, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/mixins.css.scss */
+  0% {
+    opacity: 0;
+  }
+
+  /* line 72, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/mixins.css.scss */
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  /* line 71, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/mixins.css.scss */
+  0% {
+    opacity: 0;
+  }
+
+  /* line 72, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/mixins.css.scss */
+  100% {
+    opacity: 1;
+  }
+}
+
+/*------------------------------------*
+    $ CONTENTS
+ *------------------------------------*/
+/**
+ * CONTENTS .........目次
+ * Variable .........変数
+ * Mixin ............mixin群
+ * Reset ............デフォルトの設定
+ * Elements .........クラス名の無いエレメント群
+ * Objects ..........汎用的なデザインのパターン
+ * Components .......オブジェクトで構成された部品群
+ * Override .........cssプラグインのオーバーライド
+ * Style trumps .....エラー状態など
+ * Animations .......アニメーション設定
+ */
+/*------------------------------------*
+    $ Variable
+ *------------------------------------*/
+/*------------------------------------*
+    $ Mixin
+ *------------------------------------*/
+/*------------------------------------*
+    $ Reset
+ *------------------------------------*/
+/* line 72, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/home.css.scss */
+#head {
+  background-color: #1c1e26;
+}
+/* line 74, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/home.css.scss */
+#head .next-section {
+  background-color: #00c1af;
+}
+
+/* line 76, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/home.css.scss */
+#whoami {
+  background-color: #00c1af;
+}
+/* line 78, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/home.css.scss */
+#whoami * {
+  color: white;
+}
+/* line 79, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/home.css.scss */
+#whoami .next-section {
+  background-color: #dadada;
+}
+
+/* line 81, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/home.css.scss */
+#skill {
+  overflow: hidden;
+  background-color: #dadada;
+}
+/* line 84, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/home.css.scss */
+#skill .next-section {
+  background-color: white;
+}
+
+/* line 86, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/home.css.scss */
+#product {
+  background-color: white;
+}
+/* line 88, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/home.css.scss */
+#product .next-section {
+  background-color: #1c1e26;
+}
+
+/* line 90, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/home.css.scss */
+#contact {
+  height: 100%;
+  background-color: #1c1e26;
+}
+/* line 93, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/home.css.scss */
+#contact * {
+  color: white;
+}
+
+/* line 96, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/home.css.scss */
+.facebook {
+  background-color: #3b5998;
+  -webkit-box-shadow: 0 3px 0 #23355b;
+  -khtml-box-shadow: 0 3px 0 #23355b;
+  -moz-box-shadow: 0 3px 0 #23355b;
+  -ms-box-shadow: 0 3px 0 #23355b;
+  -o-box-shadow: 0 3px 0 #23355b;
+  box-shadow: 0 3px 0 #23355b;
+}
+/* line 65, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/home.css.scss */
+.facebook:hover {
+  background-color: #355088;
+}
+/* line 66, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/home.css.scss */
+.facebook:active {
+  background-color: #293e6a;
+}
+
+/* line 99, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/home.css.scss */
+.google {
+  background-color: #dd4c39;
+  -webkit-box-shadow: 0 3px 0 #842d22;
+  -khtml-box-shadow: 0 3px 0 #842d22;
+  -moz-box-shadow: 0 3px 0 #842d22;
+  -ms-box-shadow: 0 3px 0 #842d22;
+  -o-box-shadow: 0 3px 0 #842d22;
+  box-shadow: 0 3px 0 #842d22;
+}
+/* line 65, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/home.css.scss */
+.google:hover {
+  background-color: #c64433;
+}
+/* line 66, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/home.css.scss */
+.google:active {
+  background-color: #9a3527;
+}
+
+/* line 102, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/home.css.scss */
+.wantedly {
+  background-color: #00a4bb;
+  -webkit-box-shadow: 0 3px 0 #006270;
+  -khtml-box-shadow: 0 3px 0 #006270;
+  -moz-box-shadow: 0 3px 0 #006270;
+  -ms-box-shadow: 0 3px 0 #006270;
+  -o-box-shadow: 0 3px 0 #006270;
+  box-shadow: 0 3px 0 #006270;
+}
+/* line 65, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/home.css.scss */
+.wantedly:hover {
+  background-color: #0093a8;
+}
+/* line 66, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/home.css.scss */
+.wantedly:active {
+  background-color: #007282;
+}
+
+/*------------------------------------*
+    $ Elements
+ *------------------------------------*/
+/* line 109, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/home.css.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -khtml-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 113, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/home.css.scss */
+html, body {
+  height: 100%;
+}
+
+/* line 117, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/home.css.scss */
+section {
+  position: relative;
+  width: 100%;
+  min-height: 98%;
+  text-align: center;
+  padding: 24px 0;
+}
+
+/* line 125, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/home.css.scss */
+h1 {
+  font-size: 80px !important;
+}
+
+/* line 129, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/home.css.scss */
+h2 {
+  font-size: 40px;
+}
+
+/*------------------------------------*
+    $ Objects
+ *------------------------------------*/
+/* line 136, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/home.css.scss */
+.content {
+  max-width: 960px;
+  max-height: 100%;
+  margin: 0 auto;
+  *zoom: 1;
+}
+/* line 41, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/home.css.scss */
+.content:before, .content:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+/* line 46, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/home.css.scss */
+.content:after {
+  clear: both;
+}
+
+/* line 143, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/home.css.scss */
+.btn {
+  display: inline-block;
+  line-height: 50px;
+  width: 50%;
+  margin-bottom: 24px;
+  -webkit-border-radius: 4px;
+  -khtml-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+/* line 153, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/home.css.scss */
+.col-6 {
+  width: 50%;
+  float: left;
+  padding: 16px;
+}
+
+/* line 159, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/home.css.scss */
+.col-2 {
+  width: 16.6%;
+  float: left;
+  padding: 16px;
+}
+
+/* line 165, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/home.css.scss */
+.col-5 {
+  width: 41.6%;
+  float: left;
+  padding: 16px;
+}
+
+/* line 171, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/home.css.scss */
+.next-section {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: -50px;
+  left: 50%;
+  margin-left: -50px;
+  display: block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+/* line 183, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/home.css.scss */
+.next-section img {
+  width: 30px;
+  margin-top: 10px;
+}
+
+/*------------------------------------*
+    $ Components
+ *------------------------------------*/
+/* line 193, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/home.css.scss */
+#head {
+  background: url("assets/bg.jpg") no-repeat fixed center center;
+  background-size: cover;
+}
+
+/* line 197, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/home.css.scss */
+.head-title-wrapper {
+  position: absolute;
+  width: 960px;
+  left: 50%;
+  bottom: 80px;
+  margin-left: -480px;
+  color: white;
+}
+
+/* line 207, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/home.css.scss */
+#whoami .content > div {
+  text-align: left;
+}
+/* line 211, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/home.css.scss */
+#whoami .plofile {
+  width: 100%;
+  border: 6px solid white;
+  -webkit-border-radius: 50%;
+  -khtml-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+}
+/* line 217, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/home.css.scss */
+#whoami span {
+  font-size: 16px;
+  line-height: 160%;
+}
+
+/* line 225, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/home.css.scss */
+#skill .content .icon {
+  height: 200px;
+}
+/* line 228, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/home.css.scss */
+#skill .content .icon img {
+  width: 100%;
+}
+/* line 229, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/home.css.scss */
+#skill .content .icon span {
+  font-size: 18px;
+  white-space: nowrap;
+}
+
+/* line 234, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/home.css.scss */
+.app {
+  text-align: left;
+}
+/* line 237, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/home.css.scss */
+.app .title {
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}
+/* line 242, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/home.css.scss */
+.app .special {
+  color: red;
+}
+/* line 246, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/home.css.scss */
+.app a {
+  text-decoration: none;
+}
+
+/*------------------------------------*
+    $ Override
+ *------------------------------------*/
+/*------------------------------------*
+    $ Style trumps
+ *------------------------------------*/
+/*------------------------------------*
+    $ Animations
+ *------------------------------------*/
+/* line 265, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/home.css.scss */
+.icon {
+  -webkit-animation: bounceInRight 500ms ease 0s 1 normal both;
+  -khtml-animation: bounceInRight 500ms ease 0s 1 normal both;
+  -moz-animation: bounceInRight 500ms ease 0s 1 normal both;
+  -ms-animation: bounceInRight 500ms ease 0s 1 normal both;
+  -o-animation: bounceInRight 500ms ease 0s 1 normal both;
+  animation: bounceInRight 500ms ease 0s 1 normal both;
+  -webkit-animation-play-state: paused;
+  -khtml-animation-play-state: paused;
+  -moz-animation-play-state: paused;
+  -ms-animation-play-state: paused;
+  -o-animation-play-state: paused;
+  animation-play-state: paused;
+}
+/* line 268, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/home.css.scss */
+.icon.play {
+  -webkit-animation-play-state: running;
+  -khtml-animation-play-state: running;
+  -moz-animation-play-state: running;
+  -ms-animation-play-state: running;
+  -o-animation-play-state: running;
+  animation-play-state: running;
+}
+
+/* line 22, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/mixins.css.scss */
+.icon:nth-of-type(1) {
+  -webkit-animation-delay: 150ms;
+  -khtml-animation-delay: 150ms;
+  -moz-animation-delay: 150ms;
+  -ms-animation-delay: 150ms;
+  -o-animation-delay: 150ms;
+  animation-delay: 150ms;
+}
+/* line 22, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/mixins.css.scss */
+.icon:nth-of-type(2) {
+  -webkit-animation-delay: 300ms;
+  -khtml-animation-delay: 300ms;
+  -moz-animation-delay: 300ms;
+  -ms-animation-delay: 300ms;
+  -o-animation-delay: 300ms;
+  animation-delay: 300ms;
+}
+/* line 22, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/mixins.css.scss */
+.icon:nth-of-type(3) {
+  -webkit-animation-delay: 450ms;
+  -khtml-animation-delay: 450ms;
+  -moz-animation-delay: 450ms;
+  -ms-animation-delay: 450ms;
+  -o-animation-delay: 450ms;
+  animation-delay: 450ms;
+}
+/* line 22, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/mixins.css.scss */
+.icon:nth-of-type(4) {
+  -webkit-animation-delay: 600ms;
+  -khtml-animation-delay: 600ms;
+  -moz-animation-delay: 600ms;
+  -ms-animation-delay: 600ms;
+  -o-animation-delay: 600ms;
+  animation-delay: 600ms;
+}
+/* line 22, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/mixins.css.scss */
+.icon:nth-of-type(5) {
+  -webkit-animation-delay: 750ms;
+  -khtml-animation-delay: 750ms;
+  -moz-animation-delay: 750ms;
+  -ms-animation-delay: 750ms;
+  -o-animation-delay: 750ms;
+  animation-delay: 750ms;
+}
+/* line 22, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/mixins.css.scss */
+.icon:nth-of-type(6) {
+  -webkit-animation-delay: 900ms;
+  -khtml-animation-delay: 900ms;
+  -moz-animation-delay: 900ms;
+  -ms-animation-delay: 900ms;
+  -o-animation-delay: 900ms;
+  animation-delay: 900ms;
+}
+/* line 22, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/mixins.css.scss */
+.icon:nth-of-type(7) {
+  -webkit-animation-delay: 1050ms;
+  -khtml-animation-delay: 1050ms;
+  -moz-animation-delay: 1050ms;
+  -ms-animation-delay: 1050ms;
+  -o-animation-delay: 1050ms;
+  animation-delay: 1050ms;
+}
+/* line 22, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/mixins.css.scss */
+.icon:nth-of-type(8) {
+  -webkit-animation-delay: 1200ms;
+  -khtml-animation-delay: 1200ms;
+  -moz-animation-delay: 1200ms;
+  -ms-animation-delay: 1200ms;
+  -o-animation-delay: 1200ms;
+  animation-delay: 1200ms;
+}
+/* line 22, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/mixins.css.scss */
+.icon:nth-of-type(9) {
+  -webkit-animation-delay: 1350ms;
+  -khtml-animation-delay: 1350ms;
+  -moz-animation-delay: 1350ms;
+  -ms-animation-delay: 1350ms;
+  -o-animation-delay: 1350ms;
+  animation-delay: 1350ms;
+}
+/* line 22, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/mixins.css.scss */
+.icon:nth-of-type(10) {
+  -webkit-animation-delay: 1500ms;
+  -khtml-animation-delay: 1500ms;
+  -moz-animation-delay: 1500ms;
+  -ms-animation-delay: 1500ms;
+  -o-animation-delay: 1500ms;
+  animation-delay: 1500ms;
+}
+/* line 22, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/mixins.css.scss */
+.icon:nth-of-type(11) {
+  -webkit-animation-delay: 1650ms;
+  -khtml-animation-delay: 1650ms;
+  -moz-animation-delay: 1650ms;
+  -ms-animation-delay: 1650ms;
+  -o-animation-delay: 1650ms;
+  animation-delay: 1650ms;
+}
+/* line 22, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/mixins.css.scss */
+.icon:nth-of-type(12) {
+  -webkit-animation-delay: 1800ms;
+  -khtml-animation-delay: 1800ms;
+  -moz-animation-delay: 1800ms;
+  -ms-animation-delay: 1800ms;
+  -o-animation-delay: 1800ms;
+  animation-delay: 1800ms;
+}
+/* line 22, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/mixins.css.scss */
+.icon:nth-of-type(13) {
+  -webkit-animation-delay: 1950ms;
+  -khtml-animation-delay: 1950ms;
+  -moz-animation-delay: 1950ms;
+  -ms-animation-delay: 1950ms;
+  -o-animation-delay: 1950ms;
+  animation-delay: 1950ms;
+}
+
+/* line 275, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/home.css.scss */
+.app {
+  -webkit-animation: fadeIn 500ms ease 0s 1 normal both;
+  -khtml-animation: fadeIn 500ms ease 0s 1 normal both;
+  -moz-animation: fadeIn 500ms ease 0s 1 normal both;
+  -ms-animation: fadeIn 500ms ease 0s 1 normal both;
+  -o-animation: fadeIn 500ms ease 0s 1 normal both;
+  animation: fadeIn 500ms ease 0s 1 normal both;
+  -webkit-animation-play-state: paused;
+  -khtml-animation-play-state: paused;
+  -moz-animation-play-state: paused;
+  -ms-animation-play-state: paused;
+  -o-animation-play-state: paused;
+  animation-play-state: paused;
+}
+/* line 278, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/home.css.scss */
+.app.play {
+  -webkit-animation-play-state: running;
+  -khtml-animation-play-state: running;
+  -moz-animation-play-state: running;
+  -ms-animation-play-state: running;
+  -o-animation-play-state: running;
+  animation-play-state: running;
+}
+
+/* line 22, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/mixins.css.scss */
+.app:nth-of-type(1) {
+  -webkit-animation-delay: 300ms;
+  -khtml-animation-delay: 300ms;
+  -moz-animation-delay: 300ms;
+  -ms-animation-delay: 300ms;
+  -o-animation-delay: 300ms;
+  animation-delay: 300ms;
+}
+/* line 22, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/mixins.css.scss */
+.app:nth-of-type(2) {
+  -webkit-animation-delay: 600ms;
+  -khtml-animation-delay: 600ms;
+  -moz-animation-delay: 600ms;
+  -ms-animation-delay: 600ms;
+  -o-animation-delay: 600ms;
+  animation-delay: 600ms;
+}
+/* line 22, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/mixins.css.scss */
+.app:nth-of-type(3) {
+  -webkit-animation-delay: 900ms;
+  -khtml-animation-delay: 900ms;
+  -moz-animation-delay: 900ms;
+  -ms-animation-delay: 900ms;
+  -o-animation-delay: 900ms;
+  animation-delay: 900ms;
+}
+/* line 22, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/mixins.css.scss */
+.app:nth-of-type(4) {
+  -webkit-animation-delay: 1200ms;
+  -khtml-animation-delay: 1200ms;
+  -moz-animation-delay: 1200ms;
+  -ms-animation-delay: 1200ms;
+  -o-animation-delay: 1200ms;
+  animation-delay: 1200ms;
+}
+/* line 22, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/mixins.css.scss */
+.app:nth-of-type(5) {
+  -webkit-animation-delay: 1500ms;
+  -khtml-animation-delay: 1500ms;
+  -moz-animation-delay: 1500ms;
+  -ms-animation-delay: 1500ms;
+  -o-animation-delay: 1500ms;
+  animation-delay: 1500ms;
+}
+/* line 22, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/mixins.css.scss */
+.app:nth-of-type(6) {
+  -webkit-animation-delay: 1800ms;
+  -khtml-animation-delay: 1800ms;
+  -moz-animation-delay: 1800ms;
+  -ms-animation-delay: 1800ms;
+  -o-animation-delay: 1800ms;
+  animation-delay: 1800ms;
+}
+/* line 22, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/mixins.css.scss */
+.app:nth-of-type(7) {
+  -webkit-animation-delay: 2100ms;
+  -khtml-animation-delay: 2100ms;
+  -moz-animation-delay: 2100ms;
+  -ms-animation-delay: 2100ms;
+  -o-animation-delay: 2100ms;
+  animation-delay: 2100ms;
+}
