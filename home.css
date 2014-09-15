@@ -480,6 +480,10 @@
   box-sizing: border-box;
 }
 
+html {
+  font-family: "メイリオ","ＭＳ Ｐゴシック",sans-serif;
+}
+
 /* line 113, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/home.css.scss */
 html, body {
   height: 100%;
