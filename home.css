@@ -481,7 +481,7 @@
 }
 
 html {
-  font-family: "メイリオ","ＭＳ Ｐゴシック",sans-serif;
+  font-family: "メイリオ","ＭＳ Ｐゴシック",sans-serif !important;
 }
 
 /* line 113, /Users/seiichihamada/MyHome_git_clone/myhome/app/assets/stylesheets/home.css.scss */
